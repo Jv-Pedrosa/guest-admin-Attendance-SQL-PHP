@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: arial;
+}
+
+.wrapper{
+  padding: 0 2rem 0 2rem;
+}
+
+#form-login{ 
+  background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.04)
+  ,rgba(0,0,0,0.08),rgba(0,0,0,0.05),rgba(0,0,0,0.04),
+  rgba(0,0,0,0.01),rgba(0,0,0,0.1),rgba(0,0,0,0.09),rgba(0,0,0,0.1),
+  rgba(0,0,0,0.03),transparent,rgba(0,0,0,0.07),rgba(0,0,0,0.03),rgba(0,0,0,0.06) 4px)
+  ,linear-gradient(90deg, rgb(193, 255, 253),rgb(59, 104, 247));
+}
+
+table{
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,td{
+  text-align: left;
+  padding: 6px;
+  border: 1px solid black;
+
+}
+
+.login-container {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 20vh;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 5px 6px 10px black;
+}
+
+.login-container button{
+  width: 100%;
+  letter-spacing: 6px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  font-size: 32px;
+  padding: 1rem;
+  background-color: rgb(2, 110, 165);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.login-container button:hover{
+  background-color: rgb(133, 171, 190);
+}
+
+.form-element label{
+  display: block;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+#login-table , #login-table td{
+ border:none;
+ font-weight: bolder;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-element input[type=text], 
+.form-element input[type=password]{
+  margin-top: 1rem;
+  font-size: 22px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #888888;
+}
+
+.message{
+  width: 100%;
+  padding: 1rem;
+}
+
+.message.warning{
+  background: #e9e77f;
+  border-left: 6px solid #ceca09;
+ 
+}
+
+.message.success{
+  background: #4bb838;
+  border-left: 6px solid #069b1e;
+  color: white;
+}
+
+.search-container{
+  width: 20%;
+  padding-bottom: 1rem;
+}
+
+.search-input{
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid #ddd;
+  float: left;
+  width: 75%;
+}
+
+.submit-input{
+  float: left;
+  width: 25%;
+  padding: 6px;
+  background: rgb(129, 162, 179);
+  font-size: 16px;
+  color: white;
+  border: 1px solid #ddd;
+  border-left: none;
+  letter-spacing: 1px;
+}
+
+.button-container{
+  margin: 0;
+  float: right;
+  padding: 1rem 0 1rem 0;
+}
+
+.button-container a, .button-container button{
+  float: left;
+  border: 1px solid rgb( 2, 94 , 139);
+  background: rgb(129, 162, 179);
+  padding: 8px 10px 8px 10px; 
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.button-container a:hover, .submit-input:hover,
+.button-small:hover, .back-button:hover, 
+.add-container input[type="submit"]:hover,
+.button-container button:hover,
+.button-edit a:hover, .button-delete:hover {
+  background: rgb(14, 50, 68);
+}
+
+.button-small, .back-button{
+  border: none;
+  background: rgb( 2, 110, 165);
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px 5px 8px;
+  font-size: 12px;
+  border-radius: 12px;
+}
+
+.button-edit a{
+  float:left;
+  background: rgb( 2, 110, 165);
+  color: white;
+  text-decoration: none;
+  padding: 5px 8px 5px 8px;
+
+  letter-spacing: 1px;
+  border-radius: 12px;
+}
+  .button-delete{
+    float:left;
+    background: rgb(165, 7, 2);
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px 5px 8px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+
+}
+.add-container{
+
+  margin: 0 10px;
+  padding-top: 2rem;
+
+}
+
+.add-container input{
+ 
+  display:block;
+  margin: 15px 0;
+  font-size: 22px;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: #888888;
+  
+}
+
+.add-container label{
+  font-size: 20px;
+  font-weight:600;
+ 
+}
+
+.add-container input[type="submit"]{
+  
+  border: 1px solid rgb( 2, 94 , 139);
+  background: rgb(129, 162, 179);
+  padding: 8px 10px 8px 10px; 
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+}
+
